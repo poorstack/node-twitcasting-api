@@ -1,0 +1,26 @@
+{
+  "name": "twitcasting-api",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/twitcasting-api.js",
+  "scripts": {
+    "test": "ava",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poorstack/node-twitcasting-api.git"
+  },
+  "author": "poorstack <poorstack@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poorstack/node-twitcasting-api/issues"
+  },
+  "homepage": "https://github.com/poorstack/node-twitcasting-api#readme",
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
+  }
+}
